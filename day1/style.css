@@ -1,0 +1,86 @@
+body{
+    background-image: url(./lab-css-instagram-clone-master/images/bgtile.png);
+    background-repeat:repeat-x;   
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+h1{
+    color:#06365f;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+   
+}
+
+.firstColumn{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.brandedLogos{
+    /*display: inline-block;*/
+    display: flex;
+}
+.secondColumn{
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+}
+.instagramLogo{
+    height: 60px;
+    margin-right: 150px;
+    display:inline-block;
+}
+
+.logInButton{
+    background: linear-gradient(0deg, rgba(65,119,163,1) 0%, rgba(163,200,230,1) 100%);
+    display:inline-flex;
+    align-items:center;
+    border: none;
+    text-overflow: unset;
+    color:white;   
+    padding-inline: 20px;
+}
+.buttonInnerSpace{
+    margin:10px;
+}
+.textCard{
+    background:url(./lab-css-instagram-clone-master/images/frame.png);
+    background-repeat: no-repeat;
+    overflow-wrap: normal;
+    padding:20px;
+    }
+.storeIcons{
+    margin-left: 75px;
+               
+}
+.iphoneBadge{
+   margin-right: 24px;
+    
+}
+.androidBadge{
+    margin-left:24px;
+}
+
+.footer{
+    text-decoration: none;
+    font-weight:700;
+    list-style: none;
+    display: flex;
+    padding: 10PX;
+    margin: 5px 5px;
+    color: #1c5380;
+    justify-content: center;
+    padding-inline: 5px;
+}
+
+li{
+    margin-right: 5px;
+    
+} 
+  
+
+.copyRight{
+    color:gray;
+}
